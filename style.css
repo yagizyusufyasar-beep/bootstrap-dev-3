@@ -1,0 +1,2776 @@
+
+
+@media screen and (min-width: 1px) {
+    body {
+
+        .bell-span {
+            background-color: #CB112D;
+            border-radius: 12px;
+            width: 25px;
+            color: white;
+            margin-top: -34px;
+            margin-left: 33px;
+            z-index: 9999;
+        }
+
+        .body-main {
+            background-color: #f2f2f2;
+            display: grid;
+            text-align: center;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: repeat(8, 1fr);
+            width: 100%;
+            height: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .sıkıntılı-div {
+            height: 80%;
+            border-bottom: 2px solid black;
+            width: 9vw;
+        }
+
+        .item-2 {
+    
+            background: white;
+            margin-bottom: 10px;
+            margin-left: -10vw;
+            margin-right: -10vw;
+            grid-column: 1 / span 3;
+            height: 3rem;
+            display: flex;
+
+            margin-left: 0px;
+            justify-content: space-between;
+            padding-top: 0.5vh;
+            padding-left: 3%;
+            padding-right: 8%;
+        }
+
+
+        .body-main:has(.input:focus-within) .sıkıntılı-div {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) #bildirim {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .yan-logo {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .all-in-one {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+
+        .body-main:has(.input:focus-within) #ben {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) #agim {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) #mesaj {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) #iş {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .isletmelere-div {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .bell-span {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .yan-logo-ben {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .item-3 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+            grid-row: 2 / span 7;
+        }
+
+        .item-4 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-5 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-6 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-column: 1 / span 3;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .kullanıcı-bilgi-üstlük-img {
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            overflow: hidden;
+            height: 8vh;
+            width: 100%;
+            margin-top: -3vh;
+        }
+
+        .kullanıcı-bilgi-kartı-üst {
+            background-color: white;
+            height: 10%;
+            width: 15vw;
+            margin: 0px;
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            cursor: pointer;
+            box-sizing: border-box;
+
+        }
+
+        .kullanıcı-bilgi-üstlük-img-ic-img {
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-top: -6vh;
+            margin-left: -25%;
+            height: 80px;
+            width: 80px;
+        }
+
+        .kullanıcı-bilgi-kartı-orta-ilk {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+
+        }
+
+        .kullanıcı-bilgi-kartı-orta-iki {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        .kullanıcı-bilgi-kartı-alt {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+        }
+
+
+        s .roboto {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+
+        .input {
+            background-image: url('iconlar/search.svg');
+            background-repeat: no-repeat;
+            background-position: 20px left;
+            background-size: 24px 24px;
+            width: 1px;
+            height: 1px;
+            margin-left: 10px;
+            border: 0px;
+
+        }
+
+        .input:hover {
+            background-color: #c4c4c4;
+        }
+
+        .input:focus-within {
+            border: 5px solid gold;
+            width: 200px;
+            margin-right: -100px;
+            background-color: #c4c4c4;
+            transition: 0.3s;
+            height: 37px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            padding: 12px 36px;
+
+            .yan-logo {
+                width: 0px;
+                height: 0px;
+            }
+
+            .ana-logo {
+                width: 0px;
+                height: 0px;
+            }
+
+        }
+
+        .hover-efekti {
+            cursor: pointer;
+        }
+
+        .hover-efekti:hover {
+            transition: 0.7s ease;
+            filter: brightness(0);
+        }
+
+        .yan-logo {
+            height: 24;
+            width: 24;
+        }
+
+        .ana-logo {
+            width: 2rem;
+            margin: 0vh;
+            z-index: 99999;
+        }
+
+        .ikonlar-navbar {
+            margin-left: -3rem;
+            display: flex;
+            gap: 4vw;
+            margin-top: 1vh;
+            height: 87%;
+            padding-top: 1vh;
+            padding-left: 5px;
+            padding-right: 7vh;
+            overflow-x: scroll;
+            margin-left: 5vw;
+        }
+
+        .sıkıntılı-div {
+            height: 80%;
+            border-bottom: 2px solid black;
+            width: 9vw;
+        }
+
+
+        .yan-logo-div {
+            cursor: pointer;
+        }
+
+        .yan-logo-div-yazı {
+            cursor: pointer;
+        }
+
+        .yan-logo-div:hover {
+
+
+            .hover-efekti {
+                transition: 0.7s ease;
+                filter: brightness(0);
+            }
+
+            .yan-logo-div-yazı {
+                transition: 0.7s ease;
+                color: #000000E6;
+            }
+        }
+
+        .all-in-one {
+            color: #915907;
+            text-decoration: underline;
+            font-weight: 20px;
+            width: 110px;
+            height: 24px;
+            margin-top: -2vh;
+            margin-right: 3%;
+        }
+
+        #ben {
+            display: none;
+
+        }
+
+        #mesaj {
+            display: none;
+
+        }
+
+        #agim {
+            display: none;
+
+        }
+
+        #iş {
+
+            display: none;
+        }
+
+        #bildirim {
+
+            display: none;
+        }
+
+        #ana {
+            display: none;
+
+        }
+
+        #isletmelere {
+
+            display: none;
+        }
+
+
+
+    }
+}
+
+@media screen and (min-width: 531px) {
+    body {
+
+        .bell-span {
+            background-color: #CB112D;
+            border-radius: 12px;
+            width: 25px;
+            color: white;
+            margin-top: -34px;
+            margin-left: 33px;
+            z-index: 9999;
+        }
+
+        .body-main {
+            background-color: #f2f2f2;
+            display: grid;
+            text-align: center;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: repeat(8, 1fr);
+            width: 100%;
+            height: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .sıkıntılı-div {
+            height: 80%;
+            border-bottom: 2px solid black;
+            width: 9vw;
+        }
+
+        .item-2 {
+    
+            background: white;
+            margin-bottom: 10px;
+            margin-left: -10vw;
+            margin-right: -10vw;
+            grid-column: 1 / span 3;
+            height: 3rem;
+            display: flex;
+
+            margin-left: 0px;
+            justify-content: space-between;
+            padding-top: 0.5vh;
+            padding-left: 3%;
+            padding-right: 8%;
+        }
+
+
+        .body-main:has(.input:focus-within) .ana-logo {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .yan-logo {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .sıkıntılı-div {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .item-3 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+            grid-row: 2 / span 7;
+        }
+
+        .item-4 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-5 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-6 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-column: 1 / span 3;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .kullanıcı-bilgi-üstlük-img {
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            overflow: hidden;
+            height: 8vh;
+            width: 100%;
+            margin-top: -3vh;
+        }
+
+        .kullanıcı-bilgi-kartı-üst {
+            background-color: white;
+            height: 10%;
+            width: 15vw;
+            margin: 0px;
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            cursor: pointer;
+            box-sizing: border-box;
+
+        }
+
+        .kullanıcı-bilgi-üstlük-img-ic-img {
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-top: -6vh;
+            margin-left: -25%;
+            height: 80px;
+            width: 80px;
+        }
+
+        .kullanıcı-bilgi-kartı-orta-ilk {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+
+        }
+
+        .kullanıcı-bilgi-kartı-orta-iki {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        .kullanıcı-bilgi-kartı-alt {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+        }
+
+
+
+        .roboto {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+
+        .input {
+            background-image: url('iconlar/search.svg');
+            background-repeat: no-repeat;
+            background-position: 20px left;
+            background-size: 24px 24px;
+            width: 1px;
+            height: 1px;
+            margin-left: 10px;
+            border: 0px;
+
+        }
+
+        .input:hover {
+            background-color: #c4c4c4;
+        }
+
+        .input:focus-within {
+            border: 5px solid gold;
+            width: 200px;
+            margin-right: -100px;
+            background-color: #c4c4c4;
+            transition: 0.3s;
+            height: 37px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            padding: 12px 36px;
+
+            .yan-logo {
+                width: 0px;
+                height: 0px;
+            }
+
+            .ana-logo {
+                width: 0px;
+                height: 0px;
+            }
+
+        }
+
+        .hover-efekti {
+            cursor: pointer;
+        }
+
+        .hover-efekti:hover {
+            transition: 0.7s ease;
+            filter: brightness(0);
+        }
+
+        .yan-logo {
+            height: 24;
+            width: 24;
+        }
+
+        .ana-logo {
+            width: 2rem;
+            margin: 0vh;
+        }
+
+        .ikonlar-navbar {
+            margin-left: -3rem;
+            display: flex;
+            gap: 4vw;
+            margin-top: 1vh;
+            height: 87%;
+            padding-top: 1vh;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .sıkıntılı-div {
+            height: 80%;
+            border-bottom: 2px solid black;
+            width: 9vw;
+        }
+
+
+        .yan-logo-div {
+            cursor: pointer;
+        }
+
+        .yan-logo-div-yazı {
+            cursor: pointer;
+        }
+
+        .yan-logo-div:hover {
+
+
+            .hover-efekti {
+                transition: 0.7s ease;
+                filter: brightness(0);
+            }
+
+            .yan-logo-div-yazı {
+                transition: 0.7s ease;
+                color: #000000E6;
+            }
+        }
+
+        .all-in-one {
+            color: #915907;
+            text-decoration: underline;
+            font-weight: 20px;
+            width: 110px;
+            height: 24px;
+            margin-top: -2vh;
+            margin-righ3: 3%;
+            margin-left: 4vw;
+        }
+
+        #ben {
+            display: none;
+
+        }
+
+        #mesaj {
+            display: none;
+
+        }
+
+        #agim {
+            display: none;
+
+        }
+
+        #iş {
+
+            display: none;
+        }
+
+        #bildirim {
+
+            display: none;
+        }
+
+        #ana {
+            display: none;
+
+        }
+
+        #isletmelere {
+
+            display: none;
+        }
+
+
+
+    }
+}
+
+
+@media screen and (min-width: 771px) {
+    body {
+
+        .bell-span {
+            background-color: #CB112D;
+            border-radius: 12px;
+            width: 25px;
+            color: white;
+            margin-top: -34px;
+            margin-left: 33px;
+            z-index: 9999;
+        }
+
+        .body-main {
+            background-color: #f2f2f2;
+            display: grid;
+            text-align: center;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: repeat(8, 1fr);
+            width: 100%;
+            height: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .sıkıntılı-div {
+            height: 80%;
+            border-bottom: 2px solid black;
+            width: 9vw;
+        }
+
+        .item-2 {
+    
+            background: white;
+            margin-bottom: 10px;
+            margin-left: -10vw;
+            margin-right: -10vw;
+            grid-column: 1 / span 3;
+            height: 3rem;
+            display: flex;
+
+            margin-left: 0px;
+            justify-content: space-between;
+            padding-top: 0.5vh;
+            padding-left: 3%;
+            padding-right: 8%;
+        }
+
+
+        .body-main:has(.input:focus-within) .ana-logo {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .yan-logo {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .sıkıntılı-div {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .item-3 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+            grid-row: 2 / span 7;
+        }
+
+        .item-4 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-5 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-6 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-column: 1 / span 3;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .kullanıcı-bilgi-üstlük-img {
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            overflow: hidden;
+            height: 8vh;
+            width: 100%;
+            margin-top: -3vh;
+        }
+
+        .kullanıcı-bilgi-kartı-üst {
+            background-color: white;
+            height: 10%;
+            width: 15vw;
+            margin: 0px;
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            cursor: pointer;
+            box-sizing: border-box;
+
+        }
+
+        .kullanıcı-bilgi-üstlük-img-ic-img {
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-top: -6vh;
+            margin-left: -25%;
+            height: 80px;
+            width: 80px;
+        }
+
+        .kullanıcı-bilgi-kartı-orta-ilk {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+
+        }
+
+        .kullanıcı-bilgi-kartı-orta-iki {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        .kullanıcı-bilgi-kartı-alt {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+        }
+
+
+
+        .roboto {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+
+        .input {
+            background-image: url('iconlar/search.svg');
+            background-repeat: no-repeat;
+            background-position: 20px left;
+            background-size: 24px 24px;
+            width: 1px;
+            height: 1px;
+            margin-left: 10px;
+            border: 0px;
+
+        }
+
+        .input:hover {
+            background-color: #c4c4c4;
+        }
+
+        .input:focus-within {
+            border: 5px solid gold;
+            width: 200px;
+            margin-right: -100px;
+            background-color: #c4c4c4;
+            transition: 0.3s;
+            height: 37px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            padding: 12px 36px;
+
+            .yan-logo {
+                width: 0px;
+                height: 0px;
+            }
+
+            .ana-logo {
+                width: 0px;
+                height: 0px;
+            }
+
+        }
+
+        .hover-efekti {
+            cursor: pointer;
+        }
+
+        .hover-efekti:hover {
+            transition: 0.7s ease;
+            filter: brightness(0);
+        }
+
+        .yan-logo {
+            height: 24;
+            width: 24;
+        }
+
+        .ana-logo {
+            width: 2rem;
+            margin: 0vh;
+        }
+
+        .ikonlar-navbar {
+            margin-left: -3rem;
+            display: flex;
+            gap: 7vw;
+            margin-top: 1vh;
+            height: 87%;
+            padding-top: 1vh;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .sıkıntılı-div {
+            height: 80%;
+            border-bottom: 2px solid black;
+            width: 9vw;
+        }
+
+
+        .yan-logo-div {
+            cursor: pointer;
+        }
+
+        .yan-logo-div-yazı {
+            cursor: pointer;
+        }
+
+        .yan-logo-div:hover {
+
+
+            .hover-efekti {
+                transition: 0.7s ease;
+                filter: brightness(0);
+            }
+
+            .yan-logo-div-yazı {
+                transition: 0.7s ease;
+                color: #000000E6;
+            }
+        }
+
+        .all-in-one {
+            margin-left: 4vw;
+            color: #915907;
+            text-decoration: underline;
+            font-weight: 20px;
+            width: 110px;
+            height: 24px;
+
+            margin-right: 1%;
+            margin-top: -2vh;
+        }
+
+        #ben {
+            display: none;
+
+        }
+
+        #mesaj {
+            display: none;
+
+        }
+
+        #agim {
+            display: none;
+
+        }
+
+        #iş {
+
+            display: none;
+        }
+
+        #bildirim {
+
+            display: none;
+        }
+
+        #ana {
+            display: none;
+
+        }
+
+        #isletmelere {
+
+            display: none;
+        }
+
+
+
+    }
+}
+
+@media screen and (min-width: 910px) {
+    body {
+
+        .bell-span {
+            background-color: #CB112D;
+            border-radius: 12px;
+            width: 21px;
+            color: white;
+            margin-top: -35px;
+            margin-left: 33px;
+            z-index: 9999;
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .body-main {
+            background-color: #f2f2f2;
+            display: grid;
+            text-align: center;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: repeat(8, 1fr);
+            width: 100%;
+            height: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .item-2 {
+    
+            background: white;
+            margin-bottom: 10px;
+            margin-left: -10vw;
+            margin-right: -10vw;
+            grid-column: 1 / span 3;
+            height: 3rem;
+            display: flex;
+
+            margin-left: 0px;
+            justify-content: space-between;
+            padding-top: 0.5vh;
+            padding-left: 3%;
+            padding-right: 8%;
+        }
+
+        .item-3 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+            grid-row: 2 / span 7;
+        }
+
+        .item-4 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-5 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-6 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-column: 1 / span 3;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .kullanıcı-bilgi-üstlük-img {
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            overflow: hidden;
+            height: 8vh;
+            width: 100%;
+            margin-top: -3vh;
+        }
+
+        .kullanıcı-bilgi-kartı-üst {
+            background-color: white;
+            height: 10%;
+            width: 15vw;
+            margin: 0px;
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            cursor: pointer;
+            box-sizing: border-box;
+
+        }
+
+        .kullanıcı-bilgi-üstlük-img-ic-img {
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-top: -6vh;
+            margin-left: -25%;
+            height: 80px;
+            width: 80px;
+        }
+
+        .kullanıcı-bilgi-kartı-orta-ilk {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+
+        }
+
+        .kullanıcı-bilgi-kartı-orta-iki {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        .kullanıcı-bilgi-kartı-alt {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+        }
+
+
+
+        .roboto {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+
+        .input {
+            background-image: url('iconlar/search.svg');
+            background-repeat: no-repeat;
+            background-position: 10px center;
+            background-size: 16px 16px;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 300px;
+            height: 37px;
+            padding: 12px 36px;
+            box-sizing: border-box;
+            margin-left: 10px;
+
+
+        }
+
+        .input:hover {
+            background-color: #c4c4c4;
+        }
+
+        .input:focus {
+            border: 3px solid black;
+            width: 400px;
+            margin-right: -100px;
+            background-color: #c4c4c4;
+            transition: 0.3s;
+
+        }
+
+        .hover-efekti {
+            cursor: pointer;
+        }
+
+        .hover-efekti:hover {
+            transition: 0.7s ease;
+            filter: brightness(0);
+        }
+
+        .yan-logo {
+            height: 24;
+            width: 24;
+        }
+
+        .ana-logo {
+            width: 2rem;
+            margin: 0vh;
+        }
+
+        .ikonlar-navbar {
+            margin-left: -3rem;
+            display: flex;
+            gap: 0.5vw;
+            height: 100%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .sıkıntılı-div {
+            height: 71%;
+            border-bottom: 2px solid black;
+            width: 9vw;
+        }
+
+        .yan-logo-div {
+            cursor: pointer;
+        }
+
+        .yan-logo-div-yazı {
+            cursor: pointer;
+        }
+
+        .yan-logo-div:hover {
+
+
+            .hover-efekti {
+                transition: 0.7s ease;
+                filter: brightness(0);
+            }
+
+            .yan-logo-div-yazı {
+                transition: 0.7s ease;
+                color: #000000E6;
+            }
+        }
+
+        #ben {
+            display: none;
+
+        }
+
+        #mesaj {
+            display: none;
+
+        }
+
+        #agim {
+            display: none;
+
+        }
+
+        #iş {
+
+            display: none;
+        }
+
+        #bildirim {
+
+            display: none;
+        }
+
+        #ana {
+            display: none;
+
+        }
+
+        #isletmelere {
+
+            display: none;
+        }
+    }
+}
+
+
+@media screen and (min-width: 965px) {
+    body {
+        .body-main {
+            background-color: #f2f2f2;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: repeat(8, 1fr);
+            width: 100%;
+            height: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .bell-span {
+            background-color: #CB112D;
+            border-radius: 12px;
+            width: 25px;
+            color: white;
+            margin-top: -34px;
+            margin-left: 33px;
+            z-index: 9999;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .all-in-one {
+            color: #915907;
+            text-decoration: underline;
+            font-weight: 20px;
+            width: 110px;
+            height: 24px;
+            margin-top: -2vh;
+            margin-righ3: 3%;
+            margin-left: 4vw;
+        }
+
+        .item-2 {
+    
+            background: white;
+            margin-bottom: 10px;
+            margin-left: -10vw;
+            margin-right: -10vw;
+            grid-column: 1 / span 3;
+            height: 3rem;
+            display: flex;
+
+            margin-left: 0px;
+            justify-content: space-between;
+            padding-top: 0.5vh;
+            padding-left: 14%;
+            padding-right: 14%;
+        }
+
+        .item-3 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+            grid-row: 2 / span 7;
+        }
+
+        .item-4 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-5 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-6 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-column: 1 / span 3;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .kullanıcı-bilgi-üstlük-img {
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            overflow: hidden;
+            height: 8vh;
+            width: 100%;
+            margin-top: -3vh;
+        }
+
+        .kullanıcı-bilgi-kartı-üst {
+            background-color: white;
+            height: 10%;
+            width: 15vw;
+            margin: 0px;
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            cursor: pointer;
+            box-sizing: border-box;
+
+        }
+
+        .kullanıcı-bilgi-üstlük-img-ic-img {
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-top: -6vh;
+            margin-left: -25%;
+            height: 80px;
+            width: 80px;
+        }
+
+        .kullanıcı-bilgi-kartı-orta-ilk {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+
+        }
+
+        .kullanıcı-bilgi-kartı-orta-iki {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        .kullanıcı-bilgi-kartı-alt {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+        }
+
+
+
+        .roboto {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+
+        .input {
+            background-image: url('iconlar/search.svg');
+            background-repeat: no-repeat;
+            background-position: 10px center;
+            background-size: 16px 16px;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 300px;
+            height: 37px;
+            padding: 12px 36px;
+            box-sizing: border-box;
+            margin-left: 10px;
+
+
+        }
+
+        .input:hover {
+            background-color: #c4c4c4;
+        }
+
+        .input:focus {
+            border: 3px solid black;
+            width: 400px;
+            margin-right: -100px;
+            background-color: #c4c4c4;
+            transition: 0.3s;
+
+        }
+
+        .hover-efekti {
+            cursor: pointer;
+        }
+
+        .hover-efekti:hover {
+            transition: 0.7s ease;
+            filter: brightness(0);
+        }
+
+        .yan-logo {
+            height: 24;
+            width: 24;
+        }
+
+        .ana-logo {
+            width: 2rem;
+            margin: 0vh;
+        }
+
+        .ikonlar-navbar {
+            margin-left: -3rem;
+            display: flex;
+            gap: 2vw;
+            height: 100%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .sıkıntılı-div {
+            height: 71%;
+            border-bottom: 2px solid black;
+            width: 9vw;
+        }
+
+        .yan-logo-div {
+            cursor: pointer;
+        }
+
+        .yan-logo-div-yazı {
+            cursor: pointer;
+        }
+
+        .yan-logo-div:hover {
+
+
+            .hover-efekti {
+                transition: 0.7s ease;
+                filter: brightness(0);
+            }
+
+            .yan-logo-div-yazı {
+                transition: 0.7s ease;
+                color: #000000E6;
+            }
+        }
+
+        #ben {
+
+            display: none;
+        }
+
+        #mesaj {
+
+            display: none;
+        }
+
+        #agim {
+
+            display: none;
+        }
+
+        #iş {
+
+            display: none;
+        }
+
+        #bildirim {
+
+            display: none;
+        }
+
+        #ana {
+
+            display: none;
+        }
+
+        #isletmelere {
+
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 966px) {
+    body {
+
+        .bell-span {
+            background-color: #CB112D;
+            border-radius: 12px;
+            width: 21px;
+            color: white;
+            margin-top: -34px;
+            margin-left: 30px;
+            z-index: 9999;
+        }
+
+        .body-main {
+            background-color: #f2f2f2;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: repeat(8, 1fr);
+            width: 100%;
+            height: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .all-in-one {
+            color: #915907;
+            text-decoration: underline;
+            font-weight: 20px;
+            width: 110px;
+            height: 24px;
+            margin-top: 0.01vh;
+
+            margin-right: 1%;
+            margin-left: 4vw;
+        }
+
+        .sıkıntılı-div {
+            height: 97%;
+            border-bottom: 2px solid black;
+            width: 9vw;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .item-2 {
+    
+            background: white;
+            margin-bottom: 10px;
+            margin-left: -10vw;
+            margin-right: -10vw;
+            grid-column: 1 / span 3;
+            height: 3rem;
+            display: flex;
+
+            margin-left: 0px;
+            justify-content: space-between;
+            padding-left: 1%;
+            padding-right: 4%;
+            padding-top: 0.5vh;
+        }
+
+        .item-3 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+            grid-row: 2 / span 7;
+        }
+
+        .item-4 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-5 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-6 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-column: 1 / span 3;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-x: hidden;
+        }
+
+        .kullanıcı-bilgi-üstlük-img {
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            overflow: hidden;
+            height: 8vh;
+            width: 100%;
+            margin-top: -3vh;
+        }
+
+        .kullanıcı-bilgi-kartı-üst {
+            background-color: white;
+            height: 10%;
+            width: 15vw;
+            margin: 0px;
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            cursor: pointer;
+            box-sizing: border-box;
+
+        }
+
+        .kullanıcı-bilgi-üstlük-img-ic-img {
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-top: -6vh;
+            margin-left: -25%;
+            height: 80px;
+            width: 80px;
+        }
+
+        .kullanıcı-bilgi-kartı-orta-ilk {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+
+        }
+
+        .kullanıcı-bilgi-kartı-orta-iki {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        .kullanıcı-bilgi-kartı-alt {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+        }
+
+
+
+        .roboto {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+
+        .input {
+            background-image: url('iconlar/search.svg');
+            background-repeat: no-repeat;
+            background-position: 10px center;
+            background-size: 16px 16px;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 300px;
+            height: 37px;
+            padding: 12px 36px;
+            box-sizing: border-box;
+            margin-left: 10px;
+
+
+        }
+
+        .input:hover {
+            background-color: #c4c4c4;
+        }
+
+        .input:focus {
+            border: 3px solid black;
+            width: 400px;
+            margin-right: -100px;
+            background-color: #c4c4c4;
+            transition: 0.3s;
+
+        }
+
+        .hover-efekti {
+            cursor: pointer;
+        }
+
+        .hover-efekti:hover {
+            transition: 0.7s ease;
+            filter: brightness(0);
+        }
+
+        .yan-logo {
+            height: 24;
+            width: 24;
+        }
+
+        .ana-logo {
+            width: 2rem;
+            margin: 0vh;
+        }
+
+        .ikonlar-navbar {
+            margin-left: -3rem;
+            display: flex;
+            gap: 2vw;
+            height: 100%;
+            margin-top: -0.7%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .yan-logo-div {
+            cursor: pointer;
+        }
+
+        .yan-logo-div-yazı {
+            cursor: pointer;
+        }
+
+        .yan-logo-div:hover {
+
+
+            .hover-efekti {
+                transition: 0.7s ease;
+                filter: brightness(0);
+            }
+
+            .yan-logo-div-yazı {
+                transition: 0.7s ease;
+                color: #000000E6;
+            }
+        }
+
+        #ben {
+
+            display: none;
+        }
+
+        #mesaj {
+
+            display: none;
+        }
+
+        #agim {
+
+            display: none;
+        }
+
+        #iş {
+
+            display: none;
+        }
+
+        #bildirim {
+            display: none;
+
+        }
+
+        #ana {
+            display: none;
+
+        }
+
+        #isletmelere {
+
+            display: none;
+        }
+    }
+}
+
+@media screen and (min-width: 1110px) {
+    body {
+
+        .bell-span {
+            background-color: #CB112D;
+            border-radius: 12px;
+            width: 21px;
+            color: white;
+            margin-top: -46px;
+            margin-left: 33px;
+            z-index: 9999;
+        }
+
+        .body-main {
+            background-color: #f2f2f2;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: repeat(8, 1fr);
+            width: 100%;
+            height: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .all-in-one {
+            color: #915907;
+            text-decoration: underline;
+            font-weight: 20px;
+            width: 110px;
+            height: 24px;
+            margin-top: 0.01vh;
+
+            margin-right: 1%;
+            margin-left: 4vw;
+        }
+
+        .sıkıntılı-div {
+            height: 97%;
+            border-bottom: 2px solid black;
+            width: 9vw;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .item-2 {
+    
+            background: white;
+            margin-bottom: 10px;
+            margin-left: -10vw;
+            margin-right: -10vw;
+            grid-column: 1 / span 3;
+            height: 3rem;
+            display: flex;
+
+            margin-left: 0px;
+            justify-content: space-between;
+            padding-left: 14%;
+            padding-right: 14%;
+            padding-top: 0.5vh;
+        }
+
+        .item-3 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+            grid-row: 2 / span 7;
+        }
+
+        .item-4 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-5 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-6 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-column: 1 / span 3;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-x: hidden;
+        }
+
+        .kullanıcı-bilgi-üstlük-img {
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            overflow: hidden;
+            height: 8vh;
+            width: 100%;
+            margin-top: -3vh;
+        }
+
+        .kullanıcı-bilgi-kartı-üst {
+            background-color: white;
+            height: 10%;
+            width: 15vw;
+            margin: 0px;
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            cursor: pointer;
+            box-sizing: border-box;
+
+        }
+
+        .kullanıcı-bilgi-üstlük-img-ic-img {
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-top: -6vh;
+            margin-left: -25%;
+            height: 80px;
+            width: 80px;
+        }
+
+        .kullanıcı-bilgi-kartı-orta-ilk {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+
+        }
+
+        .kullanıcı-bilgi-kartı-orta-iki {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        .kullanıcı-bilgi-kartı-alt {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+        }
+
+
+
+        .roboto {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+
+        .input {
+            background-image: url('iconlar/search.svg');
+            background-repeat: no-repeat;
+            background-position: 10px center;
+            background-size: 16px 16px;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 300px;
+            height: 37px;
+            padding: 12px 36px;
+            box-sizing: border-box;
+            margin-left: 10px;
+
+
+        }
+
+        .input:hover {
+            background-color: #c4c4c4;
+        }
+
+        .input:focus {
+            border: 3px solid black;
+            width: 400px;
+            margin-right: -100px;
+            background-color: #c4c4c4;
+            transition: 0.3s;
+
+        }
+
+        .hover-efekti {
+            cursor: pointer;
+        }
+
+        .hover-efekti:hover {
+            transition: 0.7s ease;
+            filter: brightness(0);
+        }
+
+        .yan-logo {
+            height: 24;
+            width: 24;
+        }
+
+        .ana-logo {
+            width: 2rem;
+            margin: 0vh;
+            z-index: 99999;
+        }
+
+        .ikonlar-navbar {
+            margin-left: -3rem;
+            display: flex;
+            gap: 2vw;
+            height: 100%;
+            margin-top: -0.7%;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .yan-logo-div {
+            cursor: pointer;
+        }
+
+        .yan-logo-div-yazı {
+            cursor: pointer;
+        }
+
+        .yan-logo-div:hover {
+
+
+            .hover-efekti {
+                transition: 0.7s ease;
+                filter: brightness(0);
+            }
+
+            .yan-logo-div-yazı {
+                transition: 0.7s ease;
+                color: #000000E6;
+            }
+        }
+
+        #ben {
+
+            display: block;
+        }
+
+        #mesaj {
+
+            display: block;
+        }
+
+        #agim {
+
+            display: block;
+        }
+
+        #iş {
+
+            display: block;
+        }
+
+        #bildirim {
+            display: block;
+
+        }
+
+        #ana {
+            display: block;
+            z-index: 99999;
+        }
+
+        #isletmelere {
+
+            display: block;
+        }
+    }
+}
+
+@media screen and (min-width: 1435px) {
+    body {
+
+        .bell-span {
+            background-color: #CB112D;
+            border-radius: 12px;
+            width: 21px;
+            color: white;
+            margin-top: -46px;
+            margin-left: 33px;
+            z-index: 9999;
+        }
+
+        .body-main {
+            background-color: #f2f2f2;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            grid-template-rows: repeat(8, 1fr);
+            width: 100%;
+            height: 100%;
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+
+        .all-in-one {
+            color: #915907;
+            text-decoration: underline;
+            font-weight: 20px;
+            width: 110px;
+            height: 24px;
+            margin-top: 0.01vh;
+z-index: 99999;
+           margin-left: -20px;
+        }
+
+        .sıkıntılı-div {
+            height: 97%;
+            border-bottom: 2px solid black;
+            width: 6vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        body {
+            overflow-x: hidden;
+        }
+
+        .item-2 {
+    
+            background: white;
+            margin-bottom: 10px;
+            margin-left: -10vw;
+            margin-right: -10vw;
+            grid-column: 1 / span 3;
+            height: 3rem;
+            display: flex;
+
+            margin-left: 0px;
+            justify-content: space-between;
+            padding-left: 14%;
+            padding-right: 14%;
+            padding-top: 0.5vh;
+        }
+
+        .item-3 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+            grid-row: 2 / span 7;
+        }
+
+        .item-4 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-5 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-row: 2 / span 7;
+        }
+
+        .item-6 {
+            background-color: goldenrod;
+            margin: 10px;
+            padding: 10px;
+
+            grid-column: 1 / span 3;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-x: hidden;
+        }
+
+        .kullanıcı-bilgi-üstlük-img {
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            overflow: hidden;
+            height: 8vh;
+            width: 100%;
+            margin-top: -3vh;
+        }
+
+        .kullanıcı-bilgi-kartı-üst {
+            background-color: white;
+            height: 10%;
+            width: 15vw;
+            margin: 0px;
+            border-radius: 12px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+            cursor: pointer;
+            box-sizing: border-box;
+
+        }
+
+        .kullanıcı-bilgi-üstlük-img-ic-img {
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-top: -6vh;
+            margin-left: -25%;
+            height: 80px;
+            width: 80px;
+        }
+
+        .kullanıcı-bilgi-kartı-orta-ilk {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+
+        }
+
+        .kullanıcı-bilgi-kartı-orta-iki {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        .kullanıcı-bilgi-kartı-alt {
+            height: 10vh;
+            width: 15vw;
+            background-color: white;
+        }
+
+        p {
+            font-family: "Roboto", sans-serif;
+        }
+
+
+
+        .roboto {
+            font-family: "Roboto", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: weight;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+
+
+        .input {
+            background-image: url('iconlar/search.svg');
+            background-repeat: no-repeat;
+            background-position: 10px center;
+            background-size: 16px 16px;
+            border: 1px solid black;
+            border-radius: 20px;
+            width: 300px;
+            height: 37px;
+            padding: 12px 36px;
+            box-sizing: border-box;
+            margin-left: 10px;
+
+
+        }
+
+        .input:hover {
+            background-color: #c4c4c4;
+        }
+
+        .input:focus {
+            border: 3px solid black;
+            width: 400px;
+            margin-right: -100px;
+            background-color: #c4c4c4;
+            transition: 0.3s;
+
+        }
+
+        .hover-efekti {
+            cursor: pointer;
+        }
+
+        .hover-efekti:hover {
+            transition: 0.7s ease;
+            filter: brightness(0);
+        }
+
+        .yan-logo {
+            height: 24;
+            width: 24;
+        }
+
+        .ana-logo {
+            width: 2rem;
+            margin: 0vh;
+            z-index: 99999;
+        }
+
+        .ikonlar-navbar {
+            margin-left: 5rem;
+            display: flex;
+            gap: 2vw;
+            height: 100%;
+            margin-top: -0.7%;
+
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        .yan-logo-div {
+            cursor: pointer;
+        }
+
+        .yan-logo-div-yazı {
+            cursor: pointer;
+        }
+
+        .yan-logo-div:hover {
+
+
+            .hover-efekti {
+                transition: 0.7s ease;
+                filter: brightness(0);
+            }
+
+            .yan-logo-div-yazı {
+                transition: 0.7s ease;
+                color: #000000E6;
+            }
+        }
+
+        #ben {
+
+            display: block;
+        }
+
+        #mesaj {
+
+            display: block;
+        }
+
+        #agim {
+
+            display: block;
+        }
+
+        #iş {
+
+            display: block;
+        }
+
+        #bildirim {
+            display: block;
+
+        }
+
+        #ana {
+            display: block;
+            z-index: 99999;
+        }
+
+        #isletmelere {
+
+            display: block;
+        }
+    }
+}
+
+
+
+
+/* NAVBAR */
+.item-2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 999999;
+    box-sizing: border-box;
+}
+
+/* NAVBAR YÜZÜNDEN İÇERİK KAYMASIN */
+.body-main {
+    padding-top: 70px;
+    box-sizing: border-box;
+}
+
+/* PROFİL */
+.kullanıcı-bilgi {
+    position: fixed;
+    top: 70px;
+    left: 200px;
+    z-index: 1000;
+}
+
+
+.body-main {
+    background-color: #f2f2f2;
+    display: grid;
+    text-align: center;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(8, 1fr);
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.bell-span {
+    background-color: #CB112D;
+    border-radius: 12px;
+    width: 21px;
+    color: white;
+    margin-top: -50px;
+    margin-left: 33px;
+    z-index: 9999;
+}
+
+.sıkıntılı-div {
+    height: 100%;
+    border-bottom: 2px solid black;
+    width: 9vw;
+    overflow-x: visible;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.item-2 {
+    background: white;
+    grid-column: 1 / span 3;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 0.5vh;
+    z-index: 999999;
+}
+
+.item-3 {
+    background-color: #f2f2f2;
+    margin: 10px;
+    padding: 10px;
+    grid-row: 2 / span 7;
+}
+
+.item-4 {
+    background-color: goldenrod;
+    margin: 10px;
+    padding: 10px;
+
+    grid-row: 2 / span 7;
+}
+
+.item-5 {
+    background-color: goldenrod;
+    margin: 10px;
+    padding: 10px;
+
+    grid-row: 2 / span 7;
+}
+
+.item-6 {
+    background-color: goldenrod;
+    margin: 10px;
+    padding: 10px;
+
+    grid-column: 1 / span 3;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.kullanıcı-bilgi-üstlük-img {
+    border-radius: 12px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    overflow: hidden;
+    height: 8vh;
+    width: 100%;
+    margin-top: -3vh;
+}
+
+.kullanıcı-bilgi-kartı-üst {
+    background-color: white;
+    height: 6%;
+    width: 15vw;
+    margin: 0px;
+    border-radius: 12px;
+    cursor: pointer;
+    box-sizing: border-box;
+    gap: 0px;
+
+}
+
+.kullanıcı-bilgi-üstlük-img-ic-img {
+    border-radius: 50%;
+    border: 2px solid #fff;
+    margin-top: -6vh;
+    margin-left: -25%;
+    height: 80px;
+    width: 80px;
+}
+
+.kullanıcı-bilgi-kartı-orta-ilk {
+    height: 10vh;
+    width: 15vw;
+    background-color: white;
+
+}
+
+.kullanıcı-bilgi-kartı-orta-iki {
+    height: 10vh;
+    width: 15vw;
+    background-color: white;
+}
+
+.kullanıcı-bilgi-kartı-alt {
+    height: 10vh;
+    width: 15vw;
+    background-color: white;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+.roboto {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+
+.input {
+    background-image: url('iconlar/search.svg');
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: 16px 16px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 300px;
+    height: 40px;
+    padding: 10px 36px;
+    box-sizing: border-box;
+    margin-left: 10px;
+
+
+}
+
+.input:hover {
+    background-color: #c4c4c4;
+}
+
+.input:focus {
+    border: 3px solid black;
+    width: 400px;
+    margin-right: -100px;
+    background-color: #c4c4c4;
+    transition: 0.3s;
+
+}
+
+.hover-efekti {
+    cursor: pointer;
+}
+
+.hover-efekti:hover {
+    transition: 0.7s ease;
+    filter: brightness(0);
+}
+
+.yan-logo {
+    height: 24;
+    width: 24;
+}
+
+.ana-logo {
+    width: 2rem;
+    margin: 0vh;
+    z-index: 99999;
+}
+
+.ikonlar-navbar {
+    margin-left: -3rem;
+    display: flex;
+    gap: 2vw;
+    height: 100%;
+    margin-right: -50px;
+    overflow-x: hidden;
+}
+
+.yan-logo-div {
+    cursor: pointer;
+}
+
+.yan-logo-div-yazı {
+    cursor: pointer;
+}
+
+.yan-logo-div:hover {
+
+
+    .hover-efekti {
+        transition: 0.7s ease;
+        filter: brightness(0);
+    }
+
+    .yan-logo-div-yazı {
+        transition: 0.7s ease;
+        color: #000000E6;
+    }
+}
+
+
+ .body-main:has(.input:focus-within) .ana-logo {
+
+            visibility: visible;
+        }
+
+        .body-main:has(.input:focus-within) .yan-logo {
+
+            visibility: visible;
+        }
+
+        .body-main:has(.input:focus-within) .sıkıntılı-div {
+            visibility: visible;
+        }
+
+.body-main:has(.input:focus-within) .ana-logo {
+    visibility: visible;
+}
+
+.body-main:has(.input:focus-within) .yan-logo {
+    visibility: visible;
+}
