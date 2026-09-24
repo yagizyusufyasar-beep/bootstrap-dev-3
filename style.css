@@ -10,6 +10,7 @@
             color: white;
             margin-top: -34px;
             margin-left: 33px;
+            position: relative;
             z-index: 9999;
         }
 
