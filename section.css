@@ -477,6 +477,13 @@ flex-direction: row;
     transition: 0.3s ease;
 }
 
+.linkedin-haberler-list-hover-divler{
+    margin-left: -20px;
+    padding: 0px 0px 0px 20px;
+        display: flex;
+    align-items: center;
+}
+
 .linkedin-haberler-list-hover-divler:hover{
        background-color: #cacaca;
            background-color: #cacaca;

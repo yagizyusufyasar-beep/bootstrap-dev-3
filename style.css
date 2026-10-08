@@ -1,5 +1,3 @@
-
-
 @media screen and (min-width: 1px) {
     body {
 
@@ -37,7 +35,7 @@
         }
 
         .item-2 {
-    
+
             background: white;
             margin-bottom: 10px;
             margin-left: -10vw;
@@ -54,83 +52,7 @@
         }
 
 
-        .body-main:has(.input:focus-within) .sıkıntılı-div {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) #bildirim {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) .yan-logo {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) .all-in-one {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-
-        .body-main:has(.input:focus-within) #ben {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) #agim {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) #mesaj {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) #iş {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) .isletmelere-div {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) .bell-span {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) .yan-logo-ben {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
+       
 
         .item-3 {
             background-color: goldenrod;
@@ -350,6 +272,9 @@
             margin-right: 3%;
         }
 
+           .all-in-one:hover{
+            color: black;
+        }
         #ben {
             display: none;
 
@@ -398,6 +323,7 @@
             border-radius: 12px;
             width: 25px;
             color: white;
+            position: relative;
             margin-top: -34px;
             margin-left: 33px;
             z-index: 9999;
@@ -426,7 +352,7 @@
         }
 
         .item-2 {
-    
+
             background: white;
             margin-bottom: 10px;
             margin-left: -10vw;
@@ -443,26 +369,6 @@
         }
 
 
-        .body-main:has(.input:focus-within) .ana-logo {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) .yan-logo {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) .sıkıntılı-div {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
 
         .item-3 {
             background-color: goldenrod;
@@ -677,10 +583,13 @@
             width: 110px;
             height: 24px;
             margin-top: -2vh;
-            margin-righ3: 3%;
+            margin-right: 3%;
             margin-left: 4vw;
         }
 
+           .all-in-one:hover{
+            color: black;
+        }
         #ben {
             display: none;
 
@@ -731,6 +640,7 @@
             width: 25px;
             color: white;
             margin-top: -34px;
+            position: relative;
             margin-left: 33px;
             z-index: 9999;
         }
@@ -758,7 +668,7 @@
         }
 
         .item-2 {
-    
+
             background: white;
             margin-bottom: 10px;
             margin-left: -10vw;
@@ -775,26 +685,7 @@
         }
 
 
-        .body-main:has(.input:focus-within) .ana-logo {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) .yan-logo {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
-
-        .body-main:has(.input:focus-within) .sıkıntılı-div {
-            opacity: 0;
-            width: 0;
-            height: 0;
-            visibility: hidden;
-        }
+      
 
         .item-3 {
             background-color: goldenrod;
@@ -1014,6 +905,10 @@
             margin-top: -2vh;
         }
 
+           .all-in-one:hover{
+            color: black;
+        }
+
         #ben {
             display: none;
 
@@ -1066,6 +961,7 @@
             margin-left: 33px;
             z-index: 9999;
             font-size: 14px;
+            position: relative;
             font-weight: bold;
         }
 
@@ -1087,7 +983,7 @@
         }
 
         .item-2 {
-    
+
             background: white;
             margin-bottom: 10px;
             margin-left: -10vw;
@@ -1354,6 +1250,7 @@
             color: white;
             margin-top: -34px;
             margin-left: 33px;
+            position: relative;
             z-index: 9999;
         }
 
@@ -1368,12 +1265,16 @@
             width: 110px;
             height: 24px;
             margin-top: -2vh;
-            margin-righ3: 3%;
+            margin-right: 3%;
             margin-left: 4vw;
         }
 
+           .all-in-one:hover{
+            color: black;
+        }
+
         .item-2 {
-    
+
             background: white;
             margin-bottom: 10px;
             margin-left: -10vw;
@@ -1630,6 +1531,7 @@
             margin-top: -34px;
             margin-left: 30px;
             z-index: 9999;
+            position: relative;
         }
 
         .body-main {
@@ -1655,6 +1557,10 @@
             margin-left: 4vw;
         }
 
+           .all-in-one:hover{
+            color: black;
+        }
+
         .sıkıntılı-div {
             height: 97%;
             border-bottom: 2px solid black;
@@ -1666,7 +1572,7 @@
         }
 
         .item-2 {
-    
+
             background: white;
             margin-bottom: 10px;
             margin-left: -10vw;
@@ -1918,6 +1824,7 @@
             color: white;
             margin-top: -46px;
             margin-left: 33px;
+            position: relative;
             z-index: 9999;
         }
 
@@ -1944,6 +1851,10 @@
             margin-left: 4vw;
         }
 
+           .all-in-one:hover{
+            color: black;
+        }
+
         .sıkıntılı-div {
             height: 97%;
             border-bottom: 2px solid black;
@@ -1955,7 +1866,7 @@
         }
 
         .item-2 {
-    
+
             background: white;
             margin-bottom: 10px;
             margin-left: -10vw;
@@ -2123,6 +2034,8 @@
             width: 24;
         }
 
+
+
         .ana-logo {
             width: 2rem;
             margin: 0vh;
@@ -2208,8 +2121,10 @@
             color: white;
             margin-top: -46px;
             margin-left: 33px;
+            position: relative;
             z-index: 9999;
         }
+
 
         .body-main {
             background-color: #f2f2f2;
@@ -2229,8 +2144,12 @@
             width: 110px;
             height: 24px;
             margin-top: 0.01vh;
-z-index: 99999;
-           margin-left: -20px;
+            z-index: 99999;
+            margin-left: -20px;
+        }
+
+        .all-in-one:hover{
+            color: black;
         }
 
         .sıkıntılı-div {
@@ -2247,7 +2166,7 @@ z-index: 99999;
         }
 
         .item-2 {
-    
+
             background: white;
             margin-bottom: 10px;
             margin-left: -10vw;
@@ -2541,6 +2460,9 @@ z-index: 99999;
     margin-top: -50px;
     margin-left: 33px;
     z-index: 9999;
+    position: relative;
+
+
 }
 
 .sıkıntılı-div {
@@ -2753,25 +2675,135 @@ p {
     }
 }
 
+@media screen and (min-width: 100px) and (max-width: 780px) {
 
- .body-main:has(.input:focus-within) .ana-logo {
+.body-main:has(.input:focus-within) .sıkıntılı-div {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
 
+        .body-main:has(.input:focus-within) #bildirim {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .yan-logo {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .all-in-one {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+
+        .body-main:has(.input:focus-within) #ben {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) #agim {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) #mesaj {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) #iş {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .isletmelere-div {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .bell-span {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+        .body-main:has(.input:focus-within) .yan-logo-ben {
+            opacity: 0;
+            width: 0;
+            height: 0;
+            visibility: hidden;
+        }
+
+}
+
+ @media screen and (min-width: 790px) and (max-width: 5000px) {
+
+.body-main:has(.input:focus-within) .sıkıntılı-div {
+            visibility: visible;
+        }
+
+        .body-main:has(.input:focus-within) #bildirim {
             visibility: visible;
         }
 
         .body-main:has(.input:focus-within) .yan-logo {
-
             visibility: visible;
         }
 
-        .body-main:has(.input:focus-within) .sıkıntılı-div {
+        .body-main:has(.input:focus-within) .all-in-one {
             visibility: visible;
         }
 
-.body-main:has(.input:focus-within) .ana-logo {
-    visibility: visible;
+
+        .body-main:has(.input:focus-within) #ben {
+            visibility: visible;
+        }
+
+        .body-main:has(.input:focus-within) #agim {
+            visibility: visible;
+        }
+
+        .body-main:has(.input:focus-within) #mesaj {
+            visibility: visible;
+        }
+
+        .body-main:has(.input:focus-within) #iş {
+            visibility: visible;
+        }
+
+        .body-main:has(.input:focus-within) .isletmelere-div {
+            visibility: visible;
+        }
+
+        .body-main:has(.input:focus-within) .bell-span {
+            visibility: visible;
+        }
+
+        .body-main:has(.input:focus-within) .yan-logo-ben {
+            visibility: visible;
+        }
+
 }
 
-.body-main:has(.input:focus-within) .yan-logo {
-    visibility: visible;
-}
+ 
