@@ -12,6 +12,9 @@
             z-index: 9999;
         }
 
+
+
+
         .body-main {
             background-color: #f2f2f2;
             display: grid;
@@ -256,10 +259,8 @@
                 filter: brightness(0);
             }
 
-            .yan-logo-div-yazı {
-                transition: 0.7s ease;
-                color: #000000E6;
-            }
+
+
         }
 
         .all-in-one {
@@ -2675,6 +2676,52 @@ p {
     }
 }
 
+.ben-div:hover{
+    #ben {
+            color: black;
+
+        }
+}
+.mesaj-div:hover{
+    #mesaj {
+            color: black;
+
+        }
+}
+
+.agim-div:hover{
+    #agim {
+            color: black;
+
+        }
+}
+.iş-div:hover{
+    #iş {
+            color: black;
+
+        }
+}
+.bildirim-div:hover{
+    #bildirim {
+            color: black;
+
+        }
+}
+
+.ana-div:hover{
+    #ana {
+            color: black;
+
+        }
+}
+
+     .isletmelere-div:hover{
+    #isletmelere {
+            color: black;
+
+        }
+}
+
 @media screen and (min-width: 100px) and (max-width: 780px) {
 
 .body-main:has(.input:focus-within) .sıkıntılı-div {
@@ -2807,3 +2854,4 @@ p {
 }
 
  
+
