@@ -16,7 +16,7 @@
 
 
         .body-main {
-            background-color: #f2f2f2;
+            background-color: #F4F2EE;
             display: grid;
             text-align: center;
             grid-template-columns: 1fr 2fr 1fr;
@@ -177,7 +177,7 @@
         }
 
         .input:hover {
-            background-color: #c4c4c4;
+            background-color: #8c8c8c26;
         }
 
         .input:focus-within {
@@ -331,7 +331,7 @@
         }
 
         .body-main {
-            background-color: #f2f2f2;
+            background-color: #F4F2EE;
             display: grid;
             text-align: center;
             grid-template-columns: 1fr 2fr 1fr;
@@ -492,7 +492,7 @@
         }
 
         .input:hover {
-            background-color: #c4c4c4;
+            background-color: #8c8c8c26;
         }
 
         .input:focus-within {
@@ -647,7 +647,7 @@
         }
 
         .body-main {
-            background-color: #f2f2f2;
+            background-color: #F4F2EE;
             display: grid;
             text-align: center;
             grid-template-columns: 1fr 2fr 1fr;
@@ -809,7 +809,7 @@
         }
 
         .input:hover {
-            background-color: #c4c4c4;
+            background-color: #8c8c8c26;
         }
 
         .input:focus-within {
@@ -967,7 +967,7 @@
         }
 
         .body-main {
-            background-color: #f2f2f2;
+            background-color: #F4F2EE;
             display: grid;
             text-align: center;
             grid-template-columns: 1fr 2fr 1fr;
@@ -1125,7 +1125,7 @@
         }
 
         .input:hover {
-            background-color: #c4c4c4;
+            background-color: #8c8c8c26;
         }
 
         .input:focus {
@@ -1234,7 +1234,7 @@
 @media screen and (min-width: 965px) {
     body {
         .body-main {
-            background-color: #f2f2f2;
+            background-color: #F4F2EE;
             display: grid;
             grid-template-columns: 1fr 2fr 1fr;
             grid-template-rows: repeat(8, 1fr);
@@ -1416,7 +1416,7 @@
         }
 
         .input:hover {
-            background-color: #c4c4c4;
+            background-color: #8c8c8c26;
         }
 
         .input:focus {
@@ -1536,7 +1536,7 @@
         }
 
         .body-main {
-            background-color: #f2f2f2;
+            background-color: #F4F2EE;
             display: grid;
             grid-template-columns: 1fr 2fr 1fr;
             grid-template-rows: repeat(8, 1fr);
@@ -1715,7 +1715,7 @@
         }
 
         .input:hover {
-            background-color: #c4c4c4;
+            background-color: #8c8c8c26;
         }
 
         .input:focus {
@@ -1830,7 +1830,7 @@
         }
 
         .body-main {
-            background-color: #f2f2f2;
+            background-color: #F4F2EE;
             display: grid;
             grid-template-columns: 1fr 2fr 1fr;
             grid-template-rows: repeat(8, 1fr);
@@ -2009,7 +2009,7 @@
         }
 
         .input:hover {
-            background-color: #c4c4c4;
+            background-color: #8c8c8c26;
         }
 
         .input:focus {
@@ -2077,6 +2077,7 @@
 
         #ben {
 
+
             display: block;
         }
 
@@ -2128,7 +2129,7 @@
 
 
         .body-main {
-            background-color: #f2f2f2;
+            background-color: #F4F2EE;
             display: grid;
             grid-template-columns: 1fr 2fr 1fr;
             grid-template-rows: repeat(8, 1fr);
@@ -2309,7 +2310,7 @@
         }
 
         .input:hover {
-            background-color: #c4c4c4;
+            background-color: #8c8c8c26;
         }
 
         .input:focus {
@@ -2596,6 +2597,7 @@ p {
 }
 
 
+
 .input {
     background-image: url('iconlar/search.svg');
     background-repeat: no-repeat;
@@ -2613,7 +2615,7 @@ p {
 }
 
 .input:hover {
-    background-color: #c4c4c4;
+    background-color: #8c8c8c26;
 }
 
 .input:focus {
@@ -2854,4 +2856,43 @@ p {
 }
 
  
+
+
+
+    #ben {
+color: #00000099;
+
+        }
+
+        #mesaj {
+color: #00000099;
+        
+        }
+
+        #agim {
+
+            color: #00000099;
+        }
+
+        #iş {
+
+            color: #00000099;
+        }
+
+        #bildirim {
+            
+color: #00000099;
+        }
+
+        #ana {
+       color: #00000099;
+        }
+
+        #isletmelere {
+color: #00000099;
+           
+        }
+
+
+
 
